@@ -1,0 +1,94 @@
+body {
+    background-color: #E5E5E5;
+    color: #464646;
+}
+
+/*Estilo HEADER*/
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+}
+
+header div {
+    margin: 10px 30px;
+    height: 50px;
+}
+
+#logo {
+    width: 13%;
+}
+
+#buscador {
+    width: 43%;
+}
+
+#login {
+    width: 15%;
+}
+
+#buscar {
+    height: 30px;
+    width: 320px;
+    left: 208px;
+    top: 5px;
+    border-radius: 20px;
+    padding: 8px, 16px, 8px, 16px;
+    border-style: none;
+    text-align: center;
+    margin-top: 10px
+}
+
+#boton-login {
+    height: 51px;
+    width: 182px;
+    left: 954px;
+    top: 32px;
+    border-radius: 0px;
+    padding: 16px;
+    background-color: white;
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+}
+
+/* Estilo SECTION1 */
+
+#banner {
+    height: 450px;
+    width: 100%;
+    background-image: url('imagenes/FONDO.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    display: inline-block;
+}
+
+#banner-contenido {
+    margin-top: 250px;
+    margin-left: 50px;
+}
+
+#banner-titulo {
+    font-size: 52px;
+    padding-bottom: 10px;
+}
+
+#banner-texto {
+    font-size: 22px;
+    padding: 10px 0 10px;
+}
+
+#banner-boton {
+    height: 51px;
+    width: 129px;
+    left: 0px;
+    top: 119px;
+    border-radius: 0px;
+    padding: 16px;
+    background-color: #2A7AE4;
+    border-style: none;
+    color: white;
+}
