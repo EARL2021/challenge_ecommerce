@@ -16,6 +16,8 @@
 #star-wars-titulo, #consolas-titulo, #diversos-titulo {
     display: inline;
     margin: 0px 0px 0px 115px;
+    font-family: Raleway;
+    font-size: 22px;
 }
 
 #star-wars {
