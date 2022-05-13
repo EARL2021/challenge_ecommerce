@@ -2,43 +2,30 @@ body {
     color: #464646;
     font-family: Raleway;
     font-style: normal;
-    width: 377px;
+    width: auto;
+    border: 1px solid red;
 }
 
 /*Estilo HEADER*/
 
-.header__contenedor {
+.header {
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 6rem;
+    justify-content: space-around;
+    height: 4rem;
+    margin-top: 1rem;
 }
 
 .header__contenedor__logo-img {
-    align-self: center;
+    margin-left: 1rem;
+    width: 35%;
 }
 
 .imagen {
-    width: 85%;
-}
-
-.header__contenedor__buscar {
-    align-self: center;
-    margin-left: 1rem;
-    margin-right: -3rem;
-}
-
-.header__contenedor__buscar-input {
-    background: url('../imagenes/lupa.svg') right / 1rem no-repeat;
-    background-color: #F5F5F5;
-    border: none;
-    border-radius: 1rem;
-    padding: 1rem 0;
-    width: 50%;
+    max-width: 65%;
 }
 
 .header__contenedor__login {
-    align-self: center;
+    width: 35%;
 }
 
 .header__contenedor__login-boton {
@@ -47,3 +34,17 @@ body {
     color: #2a7ae4;
     border:1px solid #2a7ae4;
 }
+
+.header__contenedor__buscar {
+    width: 15%;
+}
+
+.header__contenedor__buscar-input {
+    background: url('../imagenes/lupa.svg') right / 1rem no-repeat;
+    background-color: #F5F5F5;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: inherit;
+    margin: 0 2rem;
+}    

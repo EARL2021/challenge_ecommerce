@@ -1,17 +1,16 @@
-.star-wars, .consolas, .diversos {
-    width: 100%;
-    height: auto;
+.productos {
+    margin-left: 1rem;
 }
 
 .star-wars-lista, .consolas-lista, .diversos-lista {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .star-wars-titulo, .consolas-titulo, .diversos-titulo {
     display: inline;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 1.5rem;
     font-weight: 800;
 }
@@ -19,11 +18,11 @@
 .contenedor-star-wars, .contenedor-consolas, .contenedor-diversos {
     display: flex;
     justify-content: space-between;
-    margin: 2rem 0 1rem 1rem;
+    margin: 2rem 0 1rem 0rem;
 }
 
 .star-wars__link, .consolas__link, .diversos__link {
-    margin-right: 3rem;
+    margin-right: 1.5rem;
 }
 
 .star-wars__link a, .consolas__link a, .diversos__link a, .detalle {
