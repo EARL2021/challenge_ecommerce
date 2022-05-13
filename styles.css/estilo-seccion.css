@@ -1,44 +1,45 @@
-#star-wars, #consolas, #diversos {
+.star-wars, .consolas, .diversos {
     width: 100%;
-    height: 350px;
+    height: auto;
 }
 
-#star-wars-lista, #consolas-lista, #diversos-lista {
+.star-wars-lista, .consolas-lista, .diversos-lista {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
-#star-wars-item, #consolas-item, #diversos-item {
-    padding-left: 15px;
-}
-
-#star-wars-titulo, #consolas-titulo, #diversos-titulo {
+.star-wars-titulo, .consolas-titulo, .diversos-titulo {
     display: inline;
-    margin: 0px 0px 0px 115px;
     font-family: Raleway;
-    font-size: 22px;
+    font-size: 1.5rem;
+    font-weight: 800;
 }
 
-#star-wars {
-    margin-top: 20px;
+.contenedor-star-wars, .contenedor-consolas, .contenedor-diversos {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0 1rem 1rem;
 }
 
-#link-externo {
-    margin-left: 73%;
+.star-wars__link, .consolas__link, .diversos__link {
+    margin-right: 3rem;
+}
+
+.star-wars__link a, .consolas__link a, .diversos__link a, .detalle {
     text-decoration: none;
     color: #2A7AE4;
 }
 
-#detalle {
-    text-decoration: none;
-    color: #2A7AE4;
+.star-wars__link img, .consolas__link img, .diversos__link img {
+    margin-left: 0.5rem;
 }
 
-#contenedor-star-wars, #contenedor-consolas, #contenedor-diversos {
-    margin-bottom: 20px;
+.star-wars-item, .consolas-item, .diversos-item {
+    margin-bottom: 1rem;
 }
 
-#imagen, #nombre, #precio {
-    margin: 5px 0 5px;
+.nombre, .precio, .detalle {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }

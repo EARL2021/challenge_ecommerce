@@ -1,37 +1,30 @@
 /* Estilo SECCION BANNER*/
-
-#banner {
-    height: 450px;
+.banner {
+    height: 15rem;
     width: 100%;
-    background-image: url('../imagenes/FONDO.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background: url('../imagenes/FONDO.jpg') center;
     color: white;
-    display: inline-block;
+    display: flex;
 }
 
-#banner-contenido {
-    margin-top: 250px;
-    margin-left: 50px;
+.banner-contenido {
+    margin-top: 6rem;
+    margin-left: 1rem;
 }
 
-#banner-titulo {
-    font-size: 52px;
+.banner-titulo {
+    font-size: 2rem;
     padding-bottom: 10px;
 }
 
-#banner-texto {
-    font-size: 22px;
+.banner-texto {
+    font-size: 1rem;
     padding: 10px 0 10px;
 }
 
-#banner-boton {
-    height: 51px;
-    width: 129px;
-    left: 0px;
+.banner-boton {
     top: 119px;
-    border-radius: 0px;
-    padding: 16px;
+    padding: 1rem;
     background-color: #2A7AE4;
     border-style: none;
     color: white;
