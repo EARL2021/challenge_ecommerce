@@ -1,0 +1,26 @@
+@media (min-width: 1067px) {
+    .productos {
+        width: 85%;
+        margin-left: 7rem;
+    }
+
+    .banner-contenido {
+        margin-left: 7rem;
+    }
+
+    .rodapie {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .rodapie-logo, .rodapie-texto, .rodapie-formulario {
+        margin: 0 auto;
+        padding: 2rem 0 2rem 0;
+    }
+
+    .rodapie-texto {
+        text-align: left;
+    }
+}
