@@ -8,46 +8,48 @@
     <link rel="stylesheet" href="./styles.css/rodapie.css">
     <link rel="stylesheet" href="./styles.css/footer.css">
     <link rel="stylesheet" href="./styles.css/login.css">
-    <title>Login</title>
+    <link rel="stylesheet" href="./styles.css/responsive.css">
+    <link rel="stylesheet" href="./styles.css/nuevo-producto.css">
+    <title>Agregar Nuevo Producto</title>
 </head>
 
 <body>
-    <header>
-        <div id="logo">
-            <img src="imagenes/Logo.png" alt="Logo Alura-Geek" id="logo-alura-geek">
-        </div>
-
-        <div id="buscador">
-            <input type="text" id="buscar" placeholder="¿Qué deseas buscar?         	
-            &#128269;">
-        </div>
-
-        <div id="login">
-            <button id="boton-login">Login</button>
-        </div>
+    <header class="header">
+        <div><a class="header__contenedor__logo-img" href="./index.html" ><img class="imagen" src="./imagenes/Logo.svg" alt=""></a></div>
+        <div><button class="header__contenedor__login-boton" href="login.html">Login</button></div>
+        <div><input class="header__contenedor__buscar-input" type="text"></div>
     </header>
 
     <main>
         <section class="nuevo-producto">
-            <h2 class="nuevo-producto-titulo"></h2>
-            <div class="nuevo-producto-imagen">
-                <img src="" alt="">
-                <input class="nuevo-producto-btn" type="button" value="Busque en su computador">
+            <div class="nuevo-producto-contenedor">
+                <h2 class="nuevo-producto-titulo">Agregar Nuevo Producto</h2>
+
+                <label for="url-imagen">URL de imagen</label>
+                <input class="url-imagen" type="text">
+
+                <label for="nuevo-producto-categoria">Categoria</label>
+                <input class="nuevo-producto-categoria" type="text">
+
+                <label for="nuevo-producto-nombre">Nombre del Producto</label>
+                <input class="nuevo-producto-nombre" type="text">
+
+                <label for="nuevo-producto-precio">Precio del producto</label>
+                <input class="nuevo-producto-precio" type="text">
+
+                <label for="nuevo-producto-descripcion">Descripción del producto</label>
+                <input class="nuevo-producto-descripcion" type="text">
+
+                <button class="nuevo-producto-agregar">Agregar Producto</button>
             </div>
-            
-            <input class="nuevo-producto-nombre" type="text">
-            <input class="nuevo-producto-precio" type="text">
-            <input class="nuevo-producto-descripcion" type="text">
-            <button class="nuevo-producto-agregar">Agregar Producto</button>
         </section>
 
-        <section id="rodapie">
-
-            <div id="rodapie-logo">
-                <img src="imagenes/Logo.png" alt="">
+        <section class="rodapie">
+            <div class="rodapie-logo">
+                <img src="./imagenes/Logo.svg" alt="">
             </div>
 
-            <div id="rodapie-texto">
+            <div class="rodapie-texto">
                 <p>Quienes somos</p>
                 <p>Política de privacidad</p>
                 <p>Programa de felicidad</p>
@@ -56,23 +58,23 @@
                 <p>Anúncie aqui</p>
             </div>
 
-            <div id="rodapie-formulario">
-                <form action="">
-                    <p id="rodapie-form-titulo">Hable con nosotros</p>
+            <div class="rodapie-formulario">
+                <form>
+                    <p class="rodapie-form-titulo">Hable con nosotros</p>
 
-                    <label id="rodapie-label" for="rodapie-form-nombre">Nombre</label>
-                    <input id="rodapie-form-nombre" type="name" placeholder="Edwin Rodriguez">
+                    <label class="rodapie-label" for="rodapie-form-nombre">Nombre</label>
+                    <input class="rodapie-form-nombre" type="name" placeholder="Edwin Rodriguez">
 
-                    <textarea name="rodapie-form-texto" id="rodapie-form-texto" cols="8" rows="3" placeholder="Escribe tu mensaje"></textarea>
-                    <button id="rodapie-form-boton">Enviar mensaje</button>
+                    <textarea name="rodapie-form-texto" id="rodapie-form-texto" cols="2" rows="3" placeholder="Escribe tu mensaje"></textarea>
+                    <button class="rodapie-form-boton">Enviar mensaje</button>
                 </form>
             </div>
         </section>
     </main>
 
-    <footer id="footer">
-        <p id="footer-texto">Desarrollado por Edwin Rodriguez</p>
-        <p id="footer-anho">2022</p>
+    <footer class="footer">
+        <p class="footer-texto">Desarrollado por Edwin Rodriguez</p>
+        <p class="footer-anho">2022</p>
     </footer>
 </body>
 </html>

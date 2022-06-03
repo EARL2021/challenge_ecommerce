@@ -3,8 +3,9 @@
     height: auto;
     background-color: #ffffff;
     text-align: center;
+    margin:1rem 0 2rem 0;
 }
 
 .footer-texto {
-    padding-top: 30px;
+    padding: 1rem;
 }

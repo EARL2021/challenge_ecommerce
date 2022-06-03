@@ -1,0 +1,41 @@
+.nuevo-producto {
+    width: 100%;
+    background-color: #E5E5E5;
+    height: 40rem;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+}
+
+.nuevo-producto-contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 3rem;
+}
+
+.nuevo-producto-titulo {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.nuevo-producto-contenedor label {
+    background-color: #FFF;
+    margin: 1rem 0 0;
+    color: #A2A2A2;
+}
+
+.nuevo-producto-contenedor input {
+    border: none;
+    height: 2rem;
+}
+
+.nuevo-producto-contenedor button {
+    background-color: #2A7AE4;
+    padding: 1rem;
+    margin-top: 2rem;
+    border: none;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 16px;
+}

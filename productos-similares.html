@@ -9,23 +9,15 @@
     <link rel="stylesheet" href="./styles.css/footer.css">
     <link rel="stylesheet" href="./styles.css/productos-similares.css">
     <link rel="stylesheet" href="./styles.css/estilo-seccion.css">
+    <link rel="stylesheet" href="./styles.css/responsive.css">
     <title>Productos Similares</title>
 </head>
 
 <body>
-    <header>
-        <div id="logo">
-            <img src="imagenes/Logo.png" alt="Logo Alura-Geek" id="logo-alura-geek">
-        </div>
-
-        <div id="buscador">
-            <input type="text" id="buscar" placeholder="¿Qué deseas buscar?         	
-            &#128269;">
-        </div>
-
-        <div id="login">
-            <button id="boton-login">Login</button>
-        </div>
+    <header class="header">
+        <div><a class="header__contenedor__logo-img" href="./index.html" ><img class="imagen" src="./imagenes/Logo.svg" alt=""></a></div>
+        <div><button class="header__contenedor__login-boton" href="login.html">Login</button></div>
+        <div><input class="header__contenedor__buscar-input" type="text"></div>
     </header>
 
     <main>
@@ -38,65 +30,63 @@
             </div>
         </section>
 
-        <section class="productos-similares-ejemplos">
-            <div id="contenedor-diversos">
-                <p id="diversos-titulo">PRODUCTOS SIMILARES</p>
-            </div>
+        <section class="productos-similares">
+            <div class="productos-similares-ejemplos">
+                <p class="similares-titulo">PRODUCTOS SIMILARES</p>
+                <div class="star-wars">
+                    <ul class="star-wars-lista">
+                        <li class="star-wars-item">
+                            <img class="imagen" src="./imagenes/6.STAR WAR.svg" alt="taza sw">
+                            <p class="nombre">Producto XYZ</p>
+                            <p class="precio">$60.00</p>
+                            <a class="detalle" href="">Ver Producto</a>
+                        </li>
 
-            <div id="star-wars">
-                <ul id="star-wars-lista">
-                    <li id="star-wars-item">
-                        <img id="imagen" src="./imagenes/6.STAR WAR.svg" alt="taza sw">
-                        <p id="nombre">Producto XYZ</p>
-                        <p id="precio">$60.00</p>
-                        <a id="detalle" href="">Ver Producto</a>
-                    </li>
+                        <li class="star-wars-item">
+                            <img class="imagen" src="imagenes/5.STAR WAR.png" alt="taza sw">
+                            <p class="nombre">Producto XYZ</p>
+                            <p class="precio">$60.00</p>
+                            <a class="detalle" href="">Ver Producto</a>
+                        </li>
 
-                    <li id="star-wars-item">
-                        <img id="imagen" src="imagenes/5.STAR WAR.png" alt="taza sw">
-                        <p id="nombre">Producto XYZ</p>
-                        <p id="precio">$60.00</p>
-                        <a id="detalle" href="">Ver Producto</a>
-                    </li>
+                        <li class="star-wars-item">
+                            <img class="imagen" src="imagenes/4.STAR WAR.png" alt="taza sw">
+                            <p class="nombre">Producto XYZ</p>
+                            <p class="precio">$60.00</p>
+                            <a class="detalle" href="">Ver Producto</a>
+                        </li>
 
-                    <li id="star-wars-item">
-                        <img id="imagen" src="imagenes/4.STAR WAR.png" alt="taza sw">
-                        <p id="nombre">Producto XYZ</p>
-                        <p id="precio">$60.00</p>
-                        <a id="detalle" href="">Ver Producto</a>
-                    </li>
+                        <li class="star-wars-item">
+                            <img class="imagen" src="imagenes/3.STAR WAR.png" alt="taza sw">
+                            <p class="nombre">Producto XYZ</p>
+                            <p class="precio">$60.00</p>
+                            <a class="detalle" href="">Ver Producto</a>
+                        </li>
 
-                    <li id="star-wars-item">
-                        <img id="imagen" src="imagenes/3.STAR WAR.png" alt="taza sw">
-                        <p id="nombre">Producto XYZ</p>
-                        <p id="precio">$60.00</p>
-                        <a id="detalle" href="">Ver Producto</a>
-                    </li>
+                        <li class="star-wars-item">
+                            <img class="imagen" src="imagenes/2.STAR WAR.png" alt="taza sw">
+                            <p class="nombre">Producto XYZ</p>
+                            <p class="precio">$60.00</p>
+                            <a class="detalle" href="">Ver Producto</a>
+                        </li>
 
-                    <li id="star-wars-item">
-                        <img id="imagen" src="imagenes/2.STAR WAR.png" alt="taza sw">
-                        <p id="nombre">Producto XYZ</p>
-                        <p id="precio">$60.00</p>
-                        <a id="detalle" href="">Ver Producto</a>
-                    </li>
-
-                    <li id="star-wars-item">
-                        <img id="imagen" src="imagenes/1.STAR WAR.png" alt="taza sw">
-                        <p id="nombre">Producto XYZ</p>
-                        <p id="precio">$60.00</p>
-                        <a id="detalle" href="">Ver Producto</a>
-                    </li>
-                </ul>
+                        <li class="star-wars-item">
+                            <img class="imagen" src="imagenes/1.STAR WAR.png" alt="taza sw">
+                            <p class="nombre">Producto XYZ</p>
+                            <p class="precio">$60.00</p>
+                            <a class="detalle" href="">Ver Producto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
 
-        <section id="rodapie">
-
-            <div id="rodapie-logo">
-                <img src="imagenes/Logo.png" alt="">
+        <section class="rodapie">
+            <div class="rodapie-logo">
+                <img src="./imagenes/Logo.svg" alt="">
             </div>
 
-            <div id="rodapie-texto">
+            <div class="rodapie-texto">
                 <p>Quienes somos</p>
                 <p>Política de privacidad</p>
                 <p>Programa de felicidad</p>
@@ -105,23 +95,23 @@
                 <p>Anúncie aqui</p>
             </div>
 
-            <div id="rodapie-formulario">
-                <form action="">
-                    <p id="rodapie-form-titulo">Hable con nosotros</p>
+            <div class="rodapie-formulario">
+                <form>
+                    <p class="rodapie-form-titulo">Hable con nosotros</p>
 
-                    <label id="rodapie-label" for="rodapie-form-nombre">Nombre</label>
-                    <input id="rodapie-form-nombre" type="name" placeholder="Edwin Rodriguez">
+                    <label class="rodapie-label" for="rodapie-form-nombre">Nombre</label>
+                    <input class="rodapie-form-nombre" type="name" placeholder="Edwin Rodriguez">
 
-                    <textarea name="rodapie-form-texto" id="rodapie-form-texto" cols="8" rows="3" placeholder="Escribe tu mensaje"></textarea>
-                    <button id="rodapie-form-boton">Enviar mensaje</button>
+                    <textarea name="rodapie-form-texto" id="rodapie-form-texto" cols="2" rows="3" placeholder="Escribe tu mensaje"></textarea>
+                    <button class="rodapie-form-boton">Enviar mensaje</button>
                 </form>
             </div>
         </section>
     </main>
 
-    <footer id="footer">
-        <p id="footer-texto">Desarrollado por Edwin Rodriguez</p>
-        <p id="footer-anho">2022</p>
+    <footer class="footer">
+        <p class="footer-texto">Desarrollado por Edwin Rodriguez</p>
+        <p class="footer-anho">2022</p>
     </footer>
 </body>
 </html>
