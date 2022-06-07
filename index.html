@@ -25,7 +25,7 @@
         <div class="banner-contenido">
             <h2 class="banner-titulo">Mayo Promocional</h2>
             <p class="banner-texto">Productos seleccionados con 33% de descuento.</p>
-            <button class="banner-boton">Ver Consolas</button>
+            <button class="banner-boton" onclick="irConsola('consolas')">Ver Consolas</button>
         </div>
     </section>
 
@@ -84,7 +84,7 @@
                 </ul>
             </div>
 
-            <div class="consolas">
+            <div class="consolas" id="consolas">
                 <div class="contenedor-consolas">
                     <p class="consolas-titulo">CONSOLAS</p>
                     <div class="consolas__link">
@@ -224,5 +224,7 @@
         <p class="footer-texto">Desarrollado por Edwin Rodriguez</p>
         <p class="footer-anho">2022</p>
     </footer>
+
+    <script src="./funcionalidad/banner.js"></script>
 </body>
 </html>
